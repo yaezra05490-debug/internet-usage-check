@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<title>מדריך — בדיקת שימוש באינטרנט</title>
+<style>
+  body { margin:0; background:#f3f4f6; color:#111827;
+         font:18px/1.7 "Segoe UI",system-ui,sans-serif; padding:28px 16px 80px; }
+  .wrap { max-width:760px; margin:0 auto; }
+  h1 { font-size:30px; margin:0 0 6px; }
+  .lead { font-size:19px; color:#4b5563; margin:0 0 30px; }
+  .step { background:#fff; border:1px solid #e5e7eb; border-radius:16px;
+          padding:22px 24px; margin-bottom:20px; box-shadow:0 1px 3px rgba(0,0,0,.05); }
+  .step h2 { font-size:22px; margin:0 0 12px; display:flex; align-items:center; gap:12px; }
+  .num { background:#2563eb; color:#fff; width:40px; height:40px; border-radius:50%;
+         display:inline-flex; align-items:center; justify-content:center; font-size:20px;
+         font-weight:700; flex:0 0 auto; }
+  .step p { margin:8px 0; }
+  .big { font-size:19px; }
+  .file { background:#eff6ff; border:1px dashed #93c5fd; border-radius:8px;
+          padding:3px 10px; font-weight:700; color:#1d4ed8; white-space:nowrap; }
+  .btn { background:#dcfce7; border:1px solid #86efac; border-radius:8px;
+         padding:3px 12px; font-weight:700; color:#15803d; white-space:nowrap; }
+  .key { background:#111827; color:#fff; border-radius:8px; padding:3px 13px;
+         font-weight:700; white-space:nowrap; font-size:20px; }
+  .note { background:#fffbeb; border-right:5px solid #f59e0b; border-radius:0 10px 10px 0;
+          padding:14px 18px; margin:14px 0; font-size:17px; }
+  .ok { background:#f0fdf4; border-right:5px solid #22c55e; border-radius:0 10px 10px 0;
+        padding:18px 20px; margin-top:8px; font-size:19px; }
+  ol.clicks { margin:10px 0; padding-inline-start:26px; }
+  ol.clicks li { margin:9px 0; }
+  .uac { background:#eef2ff; border:1px solid #c7d2fe; border-radius:10px; padding:14px 18px; margin:12px 0; }
+  .menu-box { background:#1e293b; color:#e2e8f0; border-radius:12px; padding:18px 22px;
+              margin:14px 0; font-family:"Consolas",monospace; font-size:17px; line-height:1.9; }
+  .menu-box .hl { color:#fde047; font-weight:700; }
+  .q { font-weight:700; margin:22px 0 4px; }
+  .a { color:#4b5563; margin:0 0 14px; }
+  hr { border:none; border-top:1px solid #e5e7eb; margin:30px 0; }
+  .footer { color:#6b7280; font-size:15px; text-align:center; margin-top:20px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <h1>📊 בדיקת שימוש באינטרנט</h1>
+  <p class="lead">תוכנה קטנה שבודקת כמה אינטרנט (ג'יגה) המחשב צורך — לפי כל משתמש, כל תוכנה, וכל אתר.
+     מיועדת לגלות מי או מה "אוכל" את חבילת הגלישה. <b>ההגדרה לוקחת דקה, וצריך ללחוץ רק כמה כפתורים.</b></p>
+
+  <div class="note">
+    לפני שמתחילים: העתק את כל התיקייה הזו אל <b>שולחן העבודה</b>, פְּתח אותה,
+    ובצע את שלושת השלבים לפי הסדר.
+  </div>
+
+  <div class="step">
+    <h2><span class="num">1</span> התקנת רכיב זיהוי האתרים</h2>
+    <p class="big">לחץ פעמיים על <span class="file">npcap-1.89.exe</span></p>
+    <p>ייפתח חלון קטן. לחץ לפי הסדר:</p>
+    <ol class="clicks big">
+      <li>אם קופצת שאלה כחולה של וינדוס — לחץ <span class="btn">כן / Yes</span></li>
+      <li><span class="btn">I Agree</span> &nbsp;(אני מסכים)</li>
+      <li><span class="btn">Install</span> &nbsp;(התקן)</li>
+      <li>המתן שתי שניות, ואז <span class="btn">Next</span> ← <span class="btn">Finish</span></li>
+    </ol>
+    <div class="note">אין צורך לשנות שום הגדרה. פשוט ממשיכים עם מה שכבר מסומן.</div>
+  </div>
+
+  <div class="step">
+    <h2><span class="num">2</span> פתיחת התוכנה והפעלת המדידה</h2>
+    <p class="big">לחץ פעמיים על <span class="file">NetUsage.exe</span></p>
+    <div class="uac big">
+      🛡️ תקפוץ שאלה כחולה של וינדוס — לחץ <span class="btn">כן / Yes</span>. זה תקין ונדרש.
+    </div>
+    <p>ייפתח <b>חלון התוכנה</b>. למעלה יש כפתור ירוק גדול — לחץ עליו:</p>
+    <div class="menu-box">
+      &nbsp;&nbsp;<span class="hl">▶&nbsp;&nbsp;הפעל מדידה</span> &nbsp;&nbsp;← הכפתור הירוק
+    </div>
+    <p>תופיע הודעה "המדידה הופעלה!". לחץ <span class="btn">אישור</span>.</p>
+    <div class="ok">
+      ✅ <b>זהו! מרגע זה המחשב נמדד ברקע כל הזמן</b> — גם אחרי כיבוי והדלקה.
+      החלון למעלה יראה מעכשיו "<b>המדידה פעילה</b>" ומאיזה תאריך היא פועלת.
+      אפשר לסגור את החלון — המדידה ממשיכה לבד.
+    </div>
+  </div>
+
+  <div class="step">
+    <h2><span class="num">3</span> צפייה בתוצאות</h2>
+    <p>בכל פעם שרוצים לראות מה קורה — לחץ פעמיים שוב על <span class="file">NetUsage.exe</span>
+       (ואשר את השאלה הכחולה). <b>החלון עצמו מציג את הכול:</b></p>
+    <ul class="big">
+      <li>כמה ג'יגה נמדדו, וממתי המדידה פועלת</li>
+      <li>איזה <b>משתמש</b> צרך הכי הרבה</li>
+      <li>אילו <b>תוכנות</b> משכו הכי הרבה, וכמה כל אחת</li>
+      <li>לאילו <b>אתרים</b> הלכה התעבורה — לחיצה כפולה על אתר פותחת אותו</li>
+    </ul>
+    <p>למטה יש כפתור <span class="btn">📄 דוח מלא בדפדפן</span> — לדוח מפורט עם גרפים,
+       כולל ההיסטוריה שלפני ההתקנה.</p>
+    <div class="note">
+      כדאי לתת למדידה לרוץ <b>יום-יומיים</b> לפני שמסתכלים — ככל שעובר זמן,
+      התמונה מדויקת ומלאה יותר.
+    </div>
+  </div>
+
+  <hr>
+
+  <p class="q">האם זה מאט את המחשב?</p>
+  <p class="a">לא. המדידה רצה ברקע וכמעט לא צורכת משאבים.</p>
+
+  <p class="q">האם המידע נשלח לאנשהו?</p>
+  <p class="a">לא. הכול נשמר <b>רק על המחשב הזה</b>, בקובץ מקומי. שום דבר לא עולה לאינטרנט.</p>
+
+  <p class="q">למה צריך את הרכיב מהשלב הראשון (Npcap)?</p>
+  <p class="a">הוא מה שמאפשר לזהות את שמות האתרים. בלעדיו התוכנה עדיין מודדת ג'יגה
+     לפי תוכנה ומשתמש, אבל האתרים היו מופיעים כמספרים ולא כשמות.</p>
+
+  <p class="q">איך מכבים או מסירים?</p>
+  <p class="a">פותחים את <span class="file">NetUsage.exe</span>, ובחלון לוחצים על הכפתור
+     <span class="btn">■ כבה מדידה</span> (הוא מופיע במקום הכפתור הירוק כשהמדידה פעילה).</p>
+
+  <p class="footer">נבנה במיוחד עבורך · כל הנתונים נשארים על המחשב שלך בלבד</p>
+
+</div>
+</body>
+</html>
